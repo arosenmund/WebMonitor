@@ -22,8 +22,9 @@ Here is how you use it!
 
 That's it!
 
-Improvments on the way
-[] Condence workflow to one command that also launches the website.
-[] terraform deploy script to azure.
-[] Multi cloud warehouse hosting to compare deviations in traffic to a site from differnt parts of the world.
-[] Integrate with known BGP activity data.
+Improvments on the way:
+
+- [] Condence workflow to one command that also launches the website.
+- [] terraform deploy script to azure.
+- [] Multi cloud warehouse hosting to compare deviations in traffic to a site from differnt parts of the world.
+- [] Integrate with known BGP activity data.
