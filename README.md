@@ -1,7 +1,18 @@
 # WebMonitor
 Repo for site route, dns and availability testing PowerShell based application. 
 
-What does this do?
+
+# What does this do?
+Sites that collect sensitive data over the world wide web, do not always have the appropriate capability to deny person in the middle activity that can comrpomise your credentials, service availability, or data integrity.  Thats all of 3 of the big CIA!!! I know, that is why you should monitor for redirection of traffic from different parts of the world to your site.  If it generally takes 4 hops to get to a site and now it takes 20...that could be wierd BGP hijacking and you will get yellow or red alerts for that type of activity deviating from baseline.  If the DNS A records change, that could be DNS poisoning. 
+
+## Currently Monitored
+| Metric | Detection |
+---       | --- 
+| **Ping Latency** | A metric to identify potential loss of availability
+| **Time to Live** | Returned ttl can indicate a differen service responding from the same location
+| **Network Hops** | Devaition from verified baseline generates alerts
+| **Route Consistency** | Calculated from a hash of the returend traceroute
+| **DNS Entry Consistancy** | Calculated from a hash of the returned DNS entries for the domain
 
 Let's talk about site security when it really matters!
 
